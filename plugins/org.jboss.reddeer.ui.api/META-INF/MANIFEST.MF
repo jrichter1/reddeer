@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Red Deer Eclipse UI API
+Bundle-Vendor: JBoss by Red Hat
+Bundle-SymbolicName: org.jboss.reddeer.ui.api
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.jboss.reddeer.ui.api.Activator
+Require-Bundle: org.jboss.reddeer.core;bundle-version="[1.0,1.1)",
+ org.eclipse.core.runtime,
+ org.eclipse.ui.workbench,
+ org.jboss.reddeer.jface,
+ org.jboss.reddeer.swt,
+ org.jboss.reddeer.eclipse,
+ org.jboss.reddeer.common,
+ org.hamcrest.core,
+ org.hamcrest.library
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.jboss.reddeer.ui.api,
+ org.jboss.reddeer.ui.api.wizard
